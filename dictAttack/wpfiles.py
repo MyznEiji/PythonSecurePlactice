@@ -11,6 +11,8 @@ import urllib.error
 threads = 10
 
 # $ apachectl start : on terminal
+# $ systemctl start mariadb : on terminal
+
 wpurl = "http://192.168.0.8/blog"
 localwp = "/var/www/html/blog"
 # not need file when attack 
